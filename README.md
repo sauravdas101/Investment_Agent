@@ -1,5 +1,5 @@
 # Multi-Agent Financial Research Analyst 📈
-An autonomous AI agentic pipeline built with LangGraph and Gemini 1.5 Flash that performs deep-dive research on both public and private companies. This project demonstrates advanced LLM patterns including conditional routing, parallel state management, and automated report generation.
+An autonomous AI agentic pipeline built with LangGraph and Gemini 2.0 Flash that performs deep-dive research on both public and private companies. This project demonstrates advanced LLM patterns including conditional routing, parallel state management, and automated report generation.
 
 # Overview
 Traditional investment research requires manually checking financial statements, analyst targets, and recent news. This agent automates that "first hour" of research in under 30 seconds.
@@ -33,7 +33,7 @@ Lead Analyst: Synthesizes all data points into a coherent investment thesis.
 # 🛠️ Tech Stack
 Orchestration: LangGraph
 
-LLM: Google Gemini 1.5 Flash
+LLM: Google Gemini 2.0 Flash
 
 Data Sources: Yahoo Finance API (yfinance)
 
