@@ -1,7 +1,7 @@
-Multi-Agent Financial Research Analyst 📈
+# Multi-Agent Financial Research Analyst 📈
 An autonomous AI agentic pipeline built with LangGraph and Gemini 1.5 Flash that performs deep-dive research on both public and private companies. This project demonstrates advanced LLM patterns including conditional routing, parallel state management, and automated report generation.
 
-🚀 Overview
+# Overview
 Traditional investment research requires manually checking financial statements, analyst targets, and recent news. This agent automates that "first hour" of research in under 30 seconds.
 
 Key Features
@@ -17,7 +17,7 @@ State-Aware Design: Uses LangGraph to manage data flow and maintain a persistent
 
 Professional Output: Automatically generates a formatted PDF Research Report.
 
-🏗️ Architecture
+# 🏗️ Architecture
 The system uses a directed acyclic graph (DAG) to manage the research workflow:
 
 The Router: Inspects the ticker/entity name via yfinance.
@@ -30,7 +30,7 @@ Sentiment Agent: Scrapes recent headlines and performs NLP sentiment analysis.
 
 Lead Analyst: Synthesizes all data points into a coherent investment thesis.
 
-🛠️ Tech Stack
+# 🛠️ Tech Stack
 Orchestration: LangGraph
 
 LLM: Google Gemini 1.5 Flash
@@ -41,7 +41,7 @@ Environment: Google Colab / Python 3.12
 
 PDF Generation: fpdf
 
-🚦 How to Run
+# 🚦 How to Run
 Clone the Repository:
 ```bash
 #!/bin/bash
