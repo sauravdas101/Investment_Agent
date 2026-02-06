@@ -55,3 +55,12 @@ cd Investment_agent
 
 pip install -U langgraph langchain-google-genai yfinance fpdf
 ```
+## Set Up API Key:
+
+Obtain a free API Key from Google AI Studio.
+
+Add it to your environment variables as GOOGLE_API_KEY.
+
+## Execute:
+
+Run the notebook or script. Input a ticker like NVDA for a full public report or OpenAI for a private narrative analysis.
