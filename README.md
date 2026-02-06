@@ -64,3 +64,5 @@ Add it to your environment variables as GOOGLE_API_KEY.
 ## Execute:
 
 Run the notebook or script. Input a ticker like NVDA for a full public report or OpenAI for a private narrative analysis.
+# 📊 Sample Output
+The agent produces a professional Investment Research Report (PDF) including:
