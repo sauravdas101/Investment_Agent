@@ -42,10 +42,16 @@ Environment: Google Colab / Python 3.12
 PDF Generation: fpdf
 
 # 🚦 How to Run
-Clone the Repository:
+## Clone the Repository:
 ```bash
 #!/bin/bash
 
 git clone https://github.com/sauravdas101/Investment_Agent.git
 cd Investment_agent
+```
+## Install Dependencies:
+```bash
+#!/bin/bash
+
+pip install -U langgraph langchain-google-genai yfinance fpdf
 ```
