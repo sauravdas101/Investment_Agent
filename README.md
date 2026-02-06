@@ -44,5 +44,6 @@ PDF Generation: fpdf
 🚦 How to Run
 Clone the Repository:
 
-git clone https://github.com/your-username/financial-research-agent.git
-cd financial-research-agent
+!bash
+git clone https://github.com/sauravdas101/Investment_Agent.git
+cd Investment_agent
